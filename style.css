@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+
+.center {
+    padding: 90px 0;
+    
+}
+
+.column1{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.column2{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.column3{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.titles{
+    font-family: Big Shoulders Display, cursive;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+
+.content{
+    font-family: Lexend Deca, sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+.custom-btn1{ 
+    border-radius: 34px;
+    background-color: hsl(0, 0%, 95%);
+    border-color:hsl(0, 0%, 95%);
+    font-family: Lexend Deca, sans-serif;
+    color:hsl(31, 77%, 52%);
+    font-size: 15px;
+}
+
+.custom-btn2{ 
+    border-radius: 34px;
+    background-color: hsl(0, 0%, 95%);
+    border-color:hsl(0, 0%, 95%);
+    font-family: Lexend Deca, sans-serif;
+    color:hsl(184, 100%, 22%);
+    font-size: 15px;
+}
+
+.custom-btn3{ 
+    border-radius: 34px;
+    background-color: hsl(0, 0%, 95%);
+    border-color:hsl(0, 0%, 95%);
+    font-family: Lexend Deca, sans-serif;
+    color:hsl(179, 100%, 13%);
+    font-size: 15px;
+}
+
+.custom-btn1:hover, .custom-btn2:hover, .custom-btn3:hover{
+    background-color: transparent;
+    border-color: hsl(0, 0%, 95%);
+}
+
+
+.custom-btn1:active, .custom-btn2:active, .custom-btn3:active{
+    background-color: transparent!important;
+    border-color: hsl(0, 0%, 95%)!important;
+}
+
+/* For mobile design */
+
+@media (min-width: 375px) {
+    body{
+        padding-left: 7%;
+       padding-right: 7%;
+    }
+}

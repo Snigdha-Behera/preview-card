@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/Snigdha-Behera/preview-card)
+- Live Site URL: (https://snigdha-behera.github.io/preview-card/)
 
 ### Built with
 
